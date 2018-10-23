@@ -1,0 +1,25 @@
+{
+  "name": "vue-backend-with-cli",
+  "version": "1.0.0",
+  "description": "Nodejs backend and vue cli frontend",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "source .variables && nodemon",
+    "start": "node server/index.js"
+  },
+  "author": "Luke Robinson",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.1",
+    "bluebird": "^3.5.2",
+    "body-parser": "^1.18.3",
+    "connect-multiparty": "^2.2.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "passport": "^0.4.0",
+    "path": "^0.12.7",
+    "sqlite3": "^4.0.2",
+    "umzug": "^2.1.0"
+  }
+}
